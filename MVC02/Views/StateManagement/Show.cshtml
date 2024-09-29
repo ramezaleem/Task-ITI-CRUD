@@ -1,0 +1,15 @@
+﻿@model string
+
+@{
+    ViewData["Title"] = "Show";
+}
+
+<div class="container mt-4">
+    <h2 class="mb-4">Saved Data</h2>
+
+    <div class="alert" role="alert">
+            <strong>Saved Data:</strong> @Model
+    </div>
+
+    <a href="/StateManagement/Create" class="btn btn-primary mt-3">Back to Create Cokkie</a>
+</div>
